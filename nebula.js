@@ -27,7 +27,7 @@ try {
 const io = new Server(server);
 
 // ==== Arahkan folder client ====
-app.use(express.static(path.join(__dirname, '..', 'nebula-client')));
+app.use(express.static("public")(path.join(__dirname, '..', 'nebula-client')));
 
 // ==== Logika pemain (multiplayer) ====
 const players = {};
@@ -67,3 +67,4 @@ server.listen(PORT, () => {
   const protocol = server instanceof https.Server ? 'https' : 'http';
   console.log(`🚀 Server running at ${protocol}://localhost:${PORT}`);
 });
+
