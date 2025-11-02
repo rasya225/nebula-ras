@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at center, #0b132b, #05070d);
+  color: #cde3ff;
+}
+
+#ui {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  text-shadow: 0 0 5px #00ffff;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+#info {
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+canvas {
+  display: block;
+  margin: 70px auto;
+  border: 2px solid rgba(0, 255, 255, 0.2);
+  background: #040b18;
+  box-shadow: 0 0 20px rgba(0,255,255,0.1);
+}

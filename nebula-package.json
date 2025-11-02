@@ -1,0 +1,13 @@
+{
+  "name": "nebula-battle-online",
+  "version": "1.0.0",
+  "description": "Multiplayer 2D space arena game built with Node.js, Express, and Socket.io",
+  "main": "nebula.js",
+  "scripts": {
+    "start": "node nebula.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
