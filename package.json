@@ -1,5 +1,5 @@
 {
-  "name": "nebula-battle-online",
+  "name": "nebula-ras",
   "version": "1.0.0",
   "description": "Multiplayer 2D space arena game built with Node.js, Express, and Socket.io",
   "main": "nebula.js",
@@ -11,4 +11,5 @@
     "socket.io": "^4.7.2"
   }
 }
+
 
